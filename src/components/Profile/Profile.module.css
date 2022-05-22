@@ -17,8 +17,14 @@
 	display: flex;
 	align-items: stretch;
 	justify-content: center;
-	box-shadow: rgb(59, 58, 58) 5px 5px 2px 0px;
+	box-shadow: rgb(59, 58, 58) 2px 2px 2px 2px;
  }
+ .avatar:hover {
+	cursor: pointer;
+	padding: 2px;
+	background-color: #ffd700;
+	box-shadow: #ffd700 2px 2px 2px 2px;
+}
  .userinfo {
 	grid-area: info;
 	margin: 0 5px;
@@ -49,6 +55,7 @@
 	  top: 5px;
 	  left: 5px;
 	}
+	
 	.img {
 	  border-radius: 50%;
 	}
