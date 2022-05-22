@@ -1,11 +1,11 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
-import Posts from "./components/Posts";
-import Profile from "./components/Profile";
-import TopImage from "./components/TopImage";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import NavBar from "./components/NavBar/NavBar";
+import Posts from "./components/Posts/Posts";
+import Profile from "./components/Profile/Profile";
+import TopImage from "./components/TopImage/TopImage";
 
 //*----------------------------------------------------
 function App() {
