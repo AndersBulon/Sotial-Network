@@ -17,6 +17,7 @@
 	height: 40px;
  }
  .logo:hover {
+	cursor: pointer;
 	width: 42px;
 	height: 42px;
  }
